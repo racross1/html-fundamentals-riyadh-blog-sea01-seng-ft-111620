@@ -15,6 +15,8 @@
     <h3>Travel</h3>
     <p>Once a mudbrick waystation</p>
     
+    <img src = "./images/transportation/camels-in-truck.jpg">
+
     
     <h3>History</h3>
     <h3>Sources</h3>
@@ -22,7 +24,7 @@
         expect(images[1].attributes["src"].value).to eq("./images/garden.jpg")
         expect(images[2].attributes["src"].value).to eq("./images/transportation/camels-in-truck.jpg")
         
-          expect(paragraphs[0].children[0].text).to match(/Once a mudbrick waystation/)
+          
         expect(paragraphs[1].children[0].text).to match(/Riyadh/)
         expect(paragraphs[2].children[0].text).to match(/The city is divided into 15 municipal districts/)
     </div>
